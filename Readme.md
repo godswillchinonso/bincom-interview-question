@@ -80,7 +80,7 @@ Please Senior Developer / Hiring Manager, I was unable to do this one but really
 ---
 
 ## Security Measures Implemented
-Some basic security measures were implemented in this project:
+  Some basic security measures were implemented in this project:
 
 ### CSRF Protection
 - AJAX requests include a `CSRF token` which the server validates the token before processing the request. This ensures requests are coming from the expected source.
@@ -99,7 +99,7 @@ Some basic security measures were implemented in this project:
 - Database errors are caught using `try-catch`
 - Errors are logged to a custom file instead of being exposed to users
 
---
+---
 
 ## About the Developer
 I am a **junior PHP developer** actively learning and improving my backend skills.
