@@ -1,5 +1,4 @@
 # Election Result Analysis System
-
 This project is a simple election result analysis system built as part of a technical assessment.
 The goal of the application is to fetch, analyze, and display election results stored in a relational database using PHP and SQL.
 
@@ -32,7 +31,7 @@ With Corelminaic, you can focus on writing your application logic instead of dea
 
 
 ## Project Structure
- This project is built using my personal PHP mini framework (Corelminiac).
+This project is built using my personal PHP mini framework (Corelminiac).
 
  - All business logic is handled inside the `app/controllers` folder
  - Database queries and data handling are done through model methods using PDO prepend statement
