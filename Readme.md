@@ -1,8 +1,10 @@
 # Election Result Analysis System
+
 This project is a simple election result analysis system built as part of a technical assessment.
 The goal of the application is to fetch, analyze, and display election results stored in a relational database using PHP and SQL.
 
 The project focuses more on backend logic, database relationships, and security practices than UI design.
+
 
 **Key Features:**
 - Lightweight and fast, with minimal overhead for maximum performance
@@ -16,6 +18,9 @@ Corelminaic also promises to add more dependencies, such as OAuth, payment gatew
 
 With Corelminaic, you can focus on writing your application logic instead of dealing with boilerplate code.
 
+
+
+
 ## Tech Stack:
    -**Language:** PHP
    -**Database:** MySQL
@@ -27,7 +32,7 @@ With Corelminaic, you can focus on writing your application logic instead of dea
 
 
 ## Project Structure
-This project is built using my personal PHP mini framework (Corelminiac).
+ This project is built using my personal PHP mini framework (Corelminiac).
 
  - All business logic is handled inside the `app/controllers` folder
  - Database queries and data handling are done through model methods using PDO prepend statement
@@ -45,7 +50,7 @@ This project is built using my personal PHP mini framework (Corelminiac).
  - Joins the polling unit table with the results table
  - Displays all parties and their scores for that polling unit
 
- A README file was created specifically for this implementation, and the GitHub repository links directly to the analysis page for clarity. [Click Here](https://godswillchinonsosonex.online/bincom-interview-question/page-one-theory)
+ A README file was created specifically for this implementation, and the GitHub repository links directly to the analysis page for clarity. [Click Here](https://godswillchinonsosonex.online/project/bincom-interview-question/page-one-theory)
 
 
 
@@ -63,7 +68,7 @@ This project is built using my personal PHP mini framework (Corelminiac).
 
 This approach avoids unnecessary loops in PHP and relies on the database for performance.
 
- A README file was created specifically for this implementation, and the GitHub repository links directly to the analysis page for clarity. [Click Here](https://godswillchinonsosonex.online/bincom-interview-question/page-two-theory)
+ A README file was created specifically for this implementation, and the GitHub repository links directly to the analysis page for clarity. [Click Here](https://godswillchinonsosonex.online/project/bincom-interview-question/page-two-theory)
 
 
 
@@ -94,7 +99,8 @@ Please Senior Developer / Hiring Manager, I was unable to do this one but really
 - Database errors are caught using `try-catch`
 - Errors are logged to a custom file instead of being exposed to users
 
----
+
+
 
 ## About the Developer
 I am a **junior PHP developer** actively learning and improving my backend skills.
