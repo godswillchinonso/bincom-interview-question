@@ -4,7 +4,6 @@ The goal of the application is to fetch, analyze, and display election results s
 
 The project focuses more on backend logic, database relationships, and security practices than UI design.
 
----
 **Key Features:**
 - Lightweight and fast, with minimal overhead for maximum performance
 - PSR-4 autoloading that keeps your code clean and modern
@@ -16,9 +15,6 @@ The project focuses more on backend logic, database relationships, and security 
 Corelminaic also promises to add more dependencies, such as OAuth, payment gateways, and other tools you can use across your web app development, helping you build applications faster and more efficiently.
 
 With Corelminaic, you can focus on writing your application logic instead of dealing with boilerplate code.
-
-
----
 
 ## Tech Stack:
    -**Language:** PHP
