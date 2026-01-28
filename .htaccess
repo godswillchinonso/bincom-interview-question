@@ -1,0 +1,17 @@
+# In .htaccess inside public_html
+RewriteEngine On
+
+# Tell Apache to use this file for 403 errors
+ErrorDocument 403 /public/error403.php
+
+# Block access to sensitive folders
+RedirectMatch 403 ^/app/
+RedirectMatch 403 ^/vendor/
+RedirectMatch 403 ^/core/
+RedirectMatch 403 ^/controllers/
+RedirectMatch 403 ^/models/
+
+# Redirect everything else to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
